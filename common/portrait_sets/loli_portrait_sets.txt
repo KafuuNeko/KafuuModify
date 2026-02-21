@@ -1,0 +1,11 @@
+anime_humans = {
+	species_class = HUM
+
+	portraits = { anime_neko anime_human }
+}
+
+anime_machines = {
+	species_class = MACHINE
+
+	portraits = { anime_neko_robot anime_human_robot }
+}

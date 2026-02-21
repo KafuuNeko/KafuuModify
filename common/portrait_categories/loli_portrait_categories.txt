@@ -1,0 +1,15 @@
+anime_humans = {
+	name = ANIME_HUMANS
+
+	sets = {
+		anime_humans
+	}
+}
+
+anime_machines = {
+	name = ANIME_MACHINES
+
+	sets = {
+		anime_machines
+	}
+}

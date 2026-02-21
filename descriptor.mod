@@ -1,0 +1,7 @@
+version="1.0.0"
+tags={
+	"Balance"
+}
+name="KafuuModify"
+supported_version="v4.2.4"
+remote_file_id="3670395656"
