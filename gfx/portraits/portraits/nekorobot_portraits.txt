@@ -65,7 +65,6 @@ portraits = {
     portrait1161 = { texturefile = "gfx/models/portraits/neko/1161.dds" }
     portrait1162 = { texturefile = "gfx/models/portraits/neko/1162.dds" }
     portrait1163 = { texturefile = "gfx/models/portraits/neko/1163.dds" }
-    portrait1164 = { texturefile = "gfx/models/portraits/neko/1164.dds" }
 
     portrait1170 = { texturefile = "gfx/models/portraits/neko/1170.dds" }
 
@@ -145,10 +144,10 @@ portrait_groups = {
 
                     portrait1150
 
+                    portrait1160
                     portrait1161
                     portrait1162
                     portrait1163
-                    portrait1164
 
                     portrait1170
 
@@ -230,10 +229,10 @@ portrait_groups = {
 
                     portrait1150
 
+                    portrait1160
                     portrait1161
                     portrait1162
                     portrait1163
-                    portrait1164
 
                     portrait1170
 
@@ -314,10 +313,10 @@ portrait_groups = {
 
                     portrait1150
 
+                    portrait1160
                     portrait1161
                     portrait1162
                     portrait1163
-                    portrait1164
 
                     portrait1170
 
@@ -398,10 +397,10 @@ portrait_groups = {
 
                     portrait1150
 
+                    portrait1160
                     portrait1161
                     portrait1162
                     portrait1163
-                    portrait1164
 
                     portrait1170
 
@@ -481,10 +480,10 @@ portrait_groups = {
 
                     portrait1150
 
+                    portrait1160
                     portrait1161
                     portrait1162
                     portrait1163
-                    portrait1164
 
                     portrait1170
 
