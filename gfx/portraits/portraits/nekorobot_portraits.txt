@@ -85,6 +85,22 @@ portraits = {
 
     portrait1250 = { texturefile = "gfx/models/portraits/neko/1250.dds" }
 
+    portrait26022301 = { texturefile = "gfx/models/portraits/neko/26022301.dds" }
+    portrait26022302 = { texturefile = "gfx/models/portraits/neko/26022302.dds" }
+    portrait26022303 = { texturefile = "gfx/models/portraits/neko/26022303.dds" }
+    portrait26022304 = { texturefile = "gfx/models/portraits/neko/26022304.dds" }
+    portrait26022305 = { texturefile = "gfx/models/portraits/neko/26022305.dds" }
+    portrait26022306 = { texturefile = "gfx/models/portraits/neko/26022306.dds" }
+    portrait26022307 = { texturefile = "gfx/models/portraits/neko/26022307.dds" }
+    portrait26022308 = { texturefile = "gfx/models/portraits/neko/26022308.dds" }
+    portrait26022309 = { texturefile = "gfx/models/portraits/neko/26022309.dds" }
+    portrait26022310 = { texturefile = "gfx/models/portraits/neko/26022310.dds" }
+    portrait26022311 = { texturefile = "gfx/models/portraits/neko/26022311.dds" }
+    portrait26022312 = { texturefile = "gfx/models/portraits/neko/26022312.dds" }
+    portrait26022313 = { texturefile = "gfx/models/portraits/neko/26022313.dds" }
+    portrait26022314 = { texturefile = "gfx/models/portraits/neko/26022314.dds" }
+    portrait26022315 = { texturefile = "gfx/models/portraits/neko/26022315.dds" }
+
 }
 
 portrait_groups = {
@@ -169,6 +185,21 @@ portrait_groups = {
 
                     portrait1250
 
+                    portrait26022301
+                    portrait26022302
+                    portrait26022303
+                    portrait26022304
+                    portrait26022305
+                    portrait26022306
+                    portrait26022307
+                    portrait26022308
+                    portrait26022309
+                    portrait26022310
+                    portrait26022311
+                    portrait26022312
+                    portrait26022313
+                    portrait26022314
+                    portrait26022315
                 }
             }
 
@@ -255,6 +286,22 @@ portrait_groups = {
 
                     portrait1250
 
+                    portrait26022301
+                    portrait26022302
+                    portrait26022303
+                    portrait26022304
+                    portrait26022305
+                    portrait26022306
+                    portrait26022307
+                    portrait26022308
+                    portrait26022309
+                    portrait26022310
+                    portrait26022311
+                    portrait26022312
+                    portrait26022313
+                    portrait26022314
+                    portrait26022315
+
                 }
             }
 
@@ -339,6 +386,22 @@ portrait_groups = {
                     portrait1240
 
                     portrait1250
+
+                    portrait26022301
+                    portrait26022302
+                    portrait26022303
+                    portrait26022304
+                    portrait26022305
+                    portrait26022306
+                    portrait26022307
+                    portrait26022308
+                    portrait26022309
+                    portrait26022310
+                    portrait26022311
+                    portrait26022312
+                    portrait26022313
+                    portrait26022314
+                    portrait26022315
 
                 }
             }
@@ -425,6 +488,22 @@ portrait_groups = {
 
                     portrait1250
 
+                    portrait26022301
+                    portrait26022302
+                    portrait26022303
+                    portrait26022304
+                    portrait26022305
+                    portrait26022306
+                    portrait26022307
+                    portrait26022308
+                    portrait26022309
+                    portrait26022310
+                    portrait26022311
+                    portrait26022312
+                    portrait26022313
+                    portrait26022314
+                    portrait26022315
+
                 }
             }
 
@@ -508,6 +587,22 @@ portrait_groups = {
                     portrait1240
 
                     portrait1250
+
+                    portrait26022301
+                    portrait26022302
+                    portrait26022303
+                    portrait26022304
+                    portrait26022305
+                    portrait26022306
+                    portrait26022307
+                    portrait26022308
+                    portrait26022309
+                    portrait26022310
+                    portrait26022311
+                    portrait26022312
+                    portrait26022313
+                    portrait26022314
+                    portrait26022315
 
                 }
             }
