@@ -100,6 +100,8 @@ portraits = {
     portrait26022313 = { texturefile = "gfx/models/portraits/neko/26022313.dds" }
     portrait26022314 = { texturefile = "gfx/models/portraits/neko/26022314.dds" }
     portrait26022315 = { texturefile = "gfx/models/portraits/neko/26022315.dds" }
+    portrait26022316 = { texturefile = "gfx/models/portraits/neko/26022316.dds" }
+    portrait26022317 = { texturefile = "gfx/models/portraits/neko/26022317.dds" }
 
 }
 
@@ -200,6 +202,8 @@ portrait_groups = {
                     portrait26022313
                     portrait26022314
                     portrait26022315
+                    portrait26022316
+                    portrait26022317
                 }
             }
 
@@ -301,6 +305,8 @@ portrait_groups = {
                     portrait26022313
                     portrait26022314
                     portrait26022315
+                    portrait26022316
+                    portrait26022317
 
                 }
             }
@@ -402,6 +408,8 @@ portrait_groups = {
                     portrait26022313
                     portrait26022314
                     portrait26022315
+                    portrait26022316
+                    portrait26022317
 
                 }
             }
@@ -503,6 +511,8 @@ portrait_groups = {
                     portrait26022313
                     portrait26022314
                     portrait26022315
+                    portrait26022316
+                    portrait26022317
 
                 }
             }
@@ -603,6 +613,8 @@ portrait_groups = {
                     portrait26022313
                     portrait26022314
                     portrait26022315
+                    portrait26022316
+                    portrait26022317
 
                 }
             }
