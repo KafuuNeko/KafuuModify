@@ -102,6 +102,12 @@ portraits = {
     portrait26022315 = { texturefile = "gfx/models/portraits/neko/26022315.dds" }
     portrait26022316 = { texturefile = "gfx/models/portraits/neko/26022316.dds" }
     portrait26022317 = { texturefile = "gfx/models/portraits/neko/26022317.dds" }
+    portrait26022318 = { texturefile = "gfx/models/portraits/neko/26022318.dds" }
+    portrait26022319 = { texturefile = "gfx/models/portraits/neko/26022319.dds" }
+    portrait26022320 = { texturefile = "gfx/models/portraits/neko/26022320.dds" }
+    portrait26022321 = { texturefile = "gfx/models/portraits/neko/26022321.dds" }
+    portrait26022322 = { texturefile = "gfx/models/portraits/neko/26022322.dds" }
+    portrait26022323 = { texturefile = "gfx/models/portraits/neko/26022323.dds" }
 
 }
 
@@ -204,6 +210,12 @@ portrait_groups = {
                     portrait26022315
                     portrait26022316
                     portrait26022317
+                    portrait26022318
+                    portrait26022319
+                    portrait26022320
+                    portrait26022321
+                    portrait26022322
+                    portrait26022323
                 }
             }
 
@@ -307,6 +319,12 @@ portrait_groups = {
                     portrait26022315
                     portrait26022316
                     portrait26022317
+                    portrait26022318
+                    portrait26022319
+                    portrait26022320
+                    portrait26022321
+                    portrait26022322
+                    portrait26022323
                 }
             }
 
@@ -410,6 +428,12 @@ portrait_groups = {
                     portrait26022315
                     portrait26022316
                     portrait26022317
+                    portrait26022318
+                    portrait26022319
+                    portrait26022320
+                    portrait26022321
+                    portrait26022322
+                    portrait26022323
                 }
             }
 
@@ -512,6 +536,12 @@ portrait_groups = {
                     portrait26022315
                     portrait26022316
                     portrait26022317
+                    portrait26022318
+                    portrait26022319
+                    portrait26022320
+                    portrait26022321
+                    portrait26022322
+                    portrait26022323
                 }
             }
 
@@ -613,6 +643,12 @@ portrait_groups = {
                     portrait26022315
                     portrait26022316
                     portrait26022317
+                    portrait26022318
+                    portrait26022319
+                    portrait26022320
+                    portrait26022321
+                    portrait26022322
+                    portrait26022323
                 }
             }
 
