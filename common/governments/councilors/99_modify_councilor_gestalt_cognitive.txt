@@ -1,0 +1,20 @@
+councilor_gestalt_cognitive = {
+    leader_class = { scientist }
+    possible = {
+        is_gestalt = yes
+    }
+    is_leader_possible = {
+        leader_class = scientist
+    }
+    modifier = {
+        all_technology_research_speed = 0.025
+        planet_physicists_physics_research_produces_add = 0.3
+        planet_engineers_engineering_research_produces_add = 0.3
+        planet_biologists_society_research_produces_add = 0.3
+    }
+    icon = "GFX_icon_councilor_research"
+    optional = { always = no }
+    ai_hiring_weight = {
+        inline_script = councilor_leader_weights
+    }
+}
