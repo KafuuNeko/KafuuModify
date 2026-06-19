@@ -1,0 +1,6 @@
+# Applied with a multiplier from kafuu_num_assigned_administrative_jobs.
+# Example: 100 assigned jobs => empire_size_add = -2.
+kafuu_administrative_jobs_empire_size_reduction = {
+	icon = "gfx/interface/icons/modifiers/mod_empire_size_mult_negative.dds"
+	empire_size_add = -2
+}

@@ -1,0 +1,7 @@
+# Monthly refresh for ordinary empires.
+on_monthly_pulse_country = {
+	events = {
+		kafuu_bureaucrat.1
+		kafuu_bureaucrat.2
+	}
+}

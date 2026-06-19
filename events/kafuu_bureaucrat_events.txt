@@ -1,0 +1,59 @@
+namespace = kafuu_bureaucrat
+
+# Refresh the country modifier while any Bureaucrat or Coordinator jobs are assigned.
+country_event = {
+	id = kafuu_bureaucrat.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_country_type = default
+		OR = {
+			num_assigned_jobs = {
+				job = bureaucrat
+				value > 0
+			}
+			num_assigned_jobs = {
+				job = coordinator
+				value > 0
+			}
+		}
+	}
+
+	immediate = {
+		remove_modifier = kafuu_administrative_jobs_empire_size_reduction
+		add_modifier = {
+			modifier = kafuu_administrative_jobs_empire_size_reduction
+			days = 35
+			mult = value:kafuu_num_assigned_administrative_jobs
+		}
+	}
+}
+
+# Clear stale modifiers after the last relevant job is removed.
+country_event = {
+	id = kafuu_bureaucrat.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_country_type = default
+		NOT = {
+			num_assigned_jobs = {
+				job = bureaucrat
+				value > 0
+			}
+		}
+		NOT = {
+			num_assigned_jobs = {
+				job = coordinator
+				value > 0
+			}
+		}
+		has_modifier = kafuu_administrative_jobs_empire_size_reduction
+	}
+
+	immediate = {
+		remove_modifier = kafuu_administrative_jobs_empire_size_reduction
+	}
+}

@@ -1,0 +1,20 @@
+# Counts assigned Bureaucrat and Coordinator jobs for the country.
+kafuu_num_assigned_administrative_jobs = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger = num_assigned_jobs
+		parameters = {
+			job = bureaucrat
+		}
+		mode = add
+		mult = 0.01
+	}
+	complex_trigger_modifier = {
+		trigger = num_assigned_jobs
+		parameters = {
+			job = coordinator
+		}
+		mode = add
+		mult = 0.01
+	}
+}
