@@ -7,6 +7,7 @@ constructor = {
 		ship_evasion_add = @construction_evasion
 	}
 	size_multiplier = 1
+	map_counter_icon = ship_counter_4
 	fleet_slot_size = 1
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 0
@@ -30,6 +31,15 @@ constructor = {
 	required_component_set = "sensor_components"
 	valid_target_aggressive_stance = no
 	auto_upgrade = no
+
+	construction_capabilities = {
+		starbase
+		mining_station
+		research_station
+		observation_station
+		automated_construction
+		megastructure
+	}
 
 	resources = {
 		category = ships
@@ -67,6 +77,7 @@ constructor = {
 	}
 
 	potential_country = {
+		is_nomadic = no
 		OR = {
 			has_technology = tech_hyper_drive_1
 			has_technology = tech_hyper_drive_2
@@ -93,7 +104,8 @@ colonizer = {
 	modifier = {
 		ship_evasion_add = @colony_evasion
 	}
-	size_multiplier = 1
+	size_multiplier = 20
+	map_counter_icon = ship_counter_16
 	fleet_slot_size = 1
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 0
@@ -190,6 +202,7 @@ colonizer = {
 			trigger = {
 				from = {
 					is_lithoid_empire = no
+					is_infernal_empire = no
 					is_robot_empire = no
 					is_hive_empire = no
 					NOT = {
@@ -204,6 +217,7 @@ colonizer = {
 			trigger = {
 				from = {
 					is_lithoid_empire = no
+					is_infernal_empire = no
 					is_robot_empire = no
 					is_hive_empire = yes
 				}
@@ -314,6 +328,27 @@ colonizer = {
 			energy = @colony_cost_very_high
 		}
 
+		# Alloys for Infernals
+		# 100 normally
+		cost = {
+			trigger = {
+				from = {
+					is_infernal_empire = yes
+				}
+			}
+			alloys = @colony_cost_low
+		}
+		# 400 Energy for Hives, replacing CG
+		cost = {
+			trigger = {
+				from = {
+					is_infernal_empire = yes
+					is_hive_empire = yes
+				}
+			}
+			energy = @colony_cost_mid
+		}
+
 		upkeep = {
 			energy = @colony_upkeep_energy
 			alloys = @colony_upkeep_alloys
@@ -323,6 +358,7 @@ colonizer = {
 	available_to_everyone = yes
 
 	potential_country = {
+		is_nomadic = no
 		is_guided_sapience_empire = no
 		is_wilderness_empire = no
 		OR = {
@@ -347,7 +383,8 @@ sponsored_colonizer = {
 	modifier = {
 		ship_evasion_add = @colony_evasion
 	}
-	size_multiplier = 1
+	size_multiplier = 20
+	map_counter_icon = ship_counter_16
 	fleet_slot_size = 1
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 0
@@ -375,16 +412,17 @@ sponsored_colonizer = {
 	resources = {
 		category = colonies
 		cost = {
-			energy = @colony_cost_high
+			trade = @colony_cost_high
 		}
 
 		upkeep = {
-			energy = @colony_upkeep_energy
+			trade = @colony_upkeep_energy
 			alloys = @colony_upkeep_alloys
 		}
 	}
 
 	potential_country = {
+		is_nomadic = no
 		is_guided_sapience_empire = no
 		OR = {
 			has_civic = civic_corporate_dominion
@@ -416,7 +454,8 @@ lithoid_colonizer = {
 	modifier = {
 		ship_evasion_add = @colony_evasion
 	}
-	size_multiplier = 1
+	size_multiplier = 20
+	map_counter_icon = ship_counter_16
 	fleet_slot_size = 1
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 0
@@ -449,6 +488,7 @@ lithoid_colonizer = {
 	}
 
 	potential_country = {
+		is_nomadic = no
 		has_origin = origin_lithoid
 		is_guided_sapience_empire = no
 		OR = {
@@ -475,7 +515,8 @@ guided_sapience_colonizer = {
 	modifier = {
 		ship_evasion_add = @colony_evasion
 	}
-	size_multiplier = 1
+	size_multiplier = 20
+	map_counter_icon = ship_counter_16
 	fleet_slot_size = 1
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 0
@@ -502,6 +543,7 @@ guided_sapience_colonizer = {
 	use_shipnames_from = colonizer
 
 	potential_country = {
+		is_nomadic = no
 		is_guided_sapience_empire = yes
 		OR = {
 			has_technology = tech_hyper_drive_1
@@ -733,6 +775,7 @@ science = {
 		ship_hyperlane_range_add = 1
 	}
 	size_multiplier = 1
+	map_counter_icon = ship_counter_4
 	fleet_slot_size = 1
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 0
@@ -793,9 +836,8 @@ science = {
 	}
 
 	potential_country = {
-		NOT = {
-			is_country_type = enclave_mercenary
-		}
+		is_mercenary = no
+		NOT = { is_country_type = mindwarden_enclave }
 		OR = {
 			has_technology = tech_hyper_drive_1
 			has_technology = tech_hyper_drive_2
@@ -824,6 +866,7 @@ transport = {
 		ship_evasion_add = @transport_evasion
 	}
 	size_multiplier = 1
+	map_counter_icon = ship_counter_4
 	fleet_slot_size = 1
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 0
